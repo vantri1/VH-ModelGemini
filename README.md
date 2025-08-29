@@ -16,6 +16,7 @@ Hoạt động tốt với file String.json được tạo ra từ **global-meta
 ---
 ## 📁 Cấu trúc thư mục
 Đảm bảo dự án của bạn có đầy đủ các file và thư mục như sau:
+```bash
 translator_project/
 ├── main.py                 # Script chính để chạy Phân loại và Dịch thuật
 ├── merge_files.py          # Script để gộp kết quả cuối cùng
@@ -30,6 +31,8 @@ translator_project/
     ├── init.py
     ├── filter.py           # "Bộ não" của hệ thống lọc
     └── logger.py           # Cấu hình logger
+```
+
 *Lưu ý: Các file `__init__.py` là file trống, dùng để đánh dấu thư mục là một Python package.*
 
 ---
