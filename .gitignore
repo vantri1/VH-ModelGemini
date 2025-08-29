@@ -1,0 +1,29 @@
+# Môi trường ảo của Python
+venv/
+/venv/
+
+# Thư mục cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File log được tạo ra khi chạy script
+*.log
+translation.log
+
+# Các file kết quả (output) không nên đưa lên Git
+# Git chỉ nên chứa mã nguồn để tạo ra kết quả này
+viet_hoa.json
+viet_hoa_partial.json
+*.backup
+test.json
+text.txt
+
+# Cấu hình của các trình soạn thảo code
+.vscode/
+.idea/
+
+# File cấu hình môi trường (nếu có)
+.env
+config.py
